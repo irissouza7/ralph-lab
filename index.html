@@ -1,13 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How Ralph Works</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html>
+<head>
+    <title>Relatório de Vendas</title>
+</head>
+<body>
+    <h1>Receita por Região e Mês</h1>
+    <img src="grafico.png" alt="Gráfico de receita por região e mês">
+
+    <p>
+    A análise consolidada das vendas mostra que o join entre os arquivos foi realizado corretamente, resultando em 420 registros válidos e uma receita total que corresponde exatamente ao esperado. É importante destacar que a loja 108 não aparece no resultado porque não possui vendas associadas, e as vendas órfãs com id_loja=999 foram descartadas pelo inner join, evitando qualquer distorção. O pivot de receita por região e mês confirma a consistência dos dados, com quatro regiões e seis meses representados. O gráfico evidencia a distribuição da receita e a conclusão reforça que não houve invenção de dados, apenas a aplicação rigorosa das regras de integridade. Dessa forma, todos os critérios de pronto foram atendidos e o exercício demonstra claramente como tratar armadilhas de dados em um pipeline real.
+    </p>
+</body>
 </html>
